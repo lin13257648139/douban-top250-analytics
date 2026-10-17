@@ -1,0 +1,18 @@
+.venv/
+.idea/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+output/
+*.egg-info/
+
+# Crawled data can change and may be subject to the source site's terms.
+data/*.csv
+!data/sample_movies.csv
+
+# Preserve the original coursework files locally without publishing credentials.
+legacy_local/
+
